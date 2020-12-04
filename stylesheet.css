@@ -52,6 +52,7 @@ header
 {
     display: flex;
     justify-content: space-between;
+    margin: 3px 0 3px 0;
 }
 
 nav
@@ -67,8 +68,77 @@ nav a
 }
 
 
+/* Section */
+/* Bannière */
 
+#banniere
+{
+    background-color: darkmagenta;
+    background-image: url(Images/backgroung_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+#banniere img
+{
+ width: 200px;
+}
+
+/* Contenu */
+
+#contenu
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#description
+{
+    text-align: center;
+    margin-top: 50px;
+  
+}
+
+#services
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.element
+{
+    width: 20%;
+    margin: 30px;
+    text-align: center;
+}
+
+.element p
+{
+    text-align: center;
+}
+
+#commentaire
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#commentaire span
+{
+    font-size: 0.8em;
+}
 
 
 
