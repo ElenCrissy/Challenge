@@ -40,7 +40,7 @@
 body
 {
     font-family: 'robotoregular', sans-serif;
-    width: 90%;
+    width: 100%;
     margin: auto;
     
 }
@@ -52,12 +52,13 @@ header
 {
     display: flex;
     justify-content: space-between;
-    margin: 3px 0 3px 0;
+    margin: 3px 3px 3px 1px;
 }
 
 nav
 {
     padding-top: 43px;
+    margin-right: 5px;
 }
 
 nav a
@@ -69,7 +70,7 @@ nav a
 
 
 /* Section */
-/* Bannière */
+/* --Bannière */
 
 #banniere
 {
@@ -90,7 +91,7 @@ nav a
  width: 200px;
 }
 
-/* Contenu */
+/* --Contenu */
 
 #contenu
 {
@@ -141,10 +142,55 @@ nav a
 }
 
 
+/* Footer */
 
+footer
+{
+    background-color: rgb(91,53,157);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#localisation
+{
+    padding-top: 25px;
+}
 
+.fab
+{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+}
 
+.fa-instagram
+{
+    font-size: 30px; /* Instagram trop haut */
+}
+
+/* --Info */
+
+#info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    
+}
+
+h4
+{
+    opacity: 50%;
+    margin-bottom: 0;
+}
+
+#coordonnees p
+{
+    margin-left: 10px;
+}
 
 
 
