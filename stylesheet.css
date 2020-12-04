@@ -1,0 +1,80 @@
+/* Police */
+@font-face {
+    font-family: 'robotoregular';
+    src: url('police/roboto-regular-webfont.woff2') format('woff2'),
+         url('police/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('police/roboto-bold-webfont.woff2') format('woff2'),
+         url('police/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('police/roboto-medium-webfont.woff2') format('woff2'),
+         url('police/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('police/roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Eléments principaux */
+
+body
+{
+    font-family: 'robotoregular', sans-serif;
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav
+{
+    padding-top: 43px;
+}
+
+nav a
+{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
